@@ -19,7 +19,7 @@ description: "Troubleshooting the ServiceNow Knowledge Microsoft Graph connector
 
 The following common errors are observed while configuring the connector, or during crawling and their possible reasons.
 
-### 1. Not able to find ServiceNow Knowledge articles in Microsoft 365 Copilot or Microsoft Search.
+### 1. Not able to find ServiceNow Knowledge articles on Microsoft 365 Copilot or Microsoft Search.
    
 <details>
 <summary>(Click to expand) Follow the troubleshooting steps to identify the root cause.</summary><br>
@@ -76,7 +76,7 @@ If your organization uses single sign-on (SSO) to ServiceNow, you may have troub
 
 </details>
 
-### 4. To view URL of the knowledge article, change it in the support portal
+### 4. To view the URL of the knowledge article, change it in the support portal
 
 <details><summary>(Click to expand) Follow the steps to change the URL of the knowledge article.</summary><br>
 
@@ -106,5 +106,10 @@ To change the destination URL, edit the `AccessUrl` part of the text property in
 ### 5. Issues with '_Only people with access to this data source_' permission
 
 If you see differences in the user criteria validation between ServiceNow and Microsoft Search or Microsoft 365 Copilot, set `glide.knowman.block_access_with_no_user_criteria` system property to `no`.
+
+### 6. Issues with Oauth for ServiceNow
+
+During the OAUTH for ServiceNow Connector Configuration, the Authorization window for ServiceNow shows 'logout successfully'without prompting for ServiceNow credentials.
+By default, the ServiceNow window is logged in with M365 Admin credentials with SSO from browser login and fails. hence we see Logout screen.
 
 If you have issues or want to provide feedback, contact [Microsoft Graph | Support](https://developer.microsoft.com/en-us/graph/support).
