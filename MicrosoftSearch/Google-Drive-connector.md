@@ -95,7 +95,7 @@ Custom setup is for those admins who want to edit the default values for setting
 
 **Access permissions**
 
-Currently, only files that are accessible to anyone in Google Drive are indexed and visible to all Microsoft 365 users in your tenant, from Microsoft Search or Copilot.
+Currently, only files that are accessible to anyone in Google Drive are indexed and visible to all Microsoft 365 users in your tenant, from Microsoft Search or Microsoft 365 Copilot.
 
 ### Content 
 
