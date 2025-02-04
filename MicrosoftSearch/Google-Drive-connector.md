@@ -27,7 +27,7 @@ This article is for Microsoft 365 administrators or anyone who configures, runs,
 >The Microsoft Graph Google Drive connector is in preview. If you wish to get early access to try it, sign up using [this form](https://forms.office.com/r/JniPmK5bzm).
 
 ## Capabilities
-- Access Google Drive files using the power of Semantic search
+- Access Google Drive files using the power of semantic search
 - Retain ACLs defined by your organization
 - Customize your crawl frequency
 - Create workflows using this connection and plugins from Microsoft Copilot Studio
@@ -85,11 +85,11 @@ Content | Manage Properties | To check default properties and their schema, [cli
 Sync | Incremental Crawl | Frequency: Every 15 mins
 Sync | Full crawl | Frequency: Every day
 
-If you want to edit any of these values, you need to choose the **Custom Setup** option. 
+If you want to edit any of these values, you need to choose **Custom setup**.
 
 ## Custom setup 
 
-Custom setup is for those admins who want to edit the default values for settings. Once you click on the ‘Custom Setup’ option, you should see three other tabs – Users, Content, and Sync. 
+Custom setup is for those admins who want to edit the default values for settings. Once you click **Custom setup** , you should see three other tabs – Users, Content, and Sync. 
 
 ### Users 
 
