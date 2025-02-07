@@ -109,7 +109,15 @@ If you see differences in the user criteria validation between ServiceNow and Mi
 
 ### 6. Issues with Oauth for ServiceNow
 
-During the OAUTH for ServiceNow Connector Configuration, the Authorization window for ServiceNow shows 'logout successfully'without prompting for ServiceNow credentials.
-By default, the ServiceNow window is logged in with M365 Admin credentials with SSO from browser login and fails. hence we see Logout screen.
+During the OAUTH for ServiceNow connector configuration, the authorization window for ServiceNow shows 'logout successfully'without prompting for ServiceNow credentials.
+By default, the ServiceNow window is logged in with Microsoft 365 Admin credentials with SSO from browser login and fails which results in the 'logout successfully' message. To resolve this issue, follow these steps:
+
+![Screenshot shows the 'logout successfully' window](media/servicenow-knowledge-connector/image1-issue6.png)
+
+1. In a private browser window, first sign-in with your ServiceNow credentials.
+2. Open a new tab and sign-in with the Microsoft 365 Admin center. This can take the ServiceNow SSO, sign-out and switch if needed. 
+3. Try the Oauth configuration again, the following window appears to authorize it.
+
+![Screenshot shows the 'logout successfully' window](media/servicenow-knowledge-connector/image2-issue6.png)
 
 If you have issues or want to provide feedback, contact [Microsoft Graph | Support](https://developer.microsoft.com/en-us/graph/support).
