@@ -118,6 +118,6 @@ By default, the ServiceNow window is logged in with Microsoft 365 Admin credenti
 2. Open a new tab and sign-in with the Microsoft 365 Admin center. This can take the ServiceNow SSO, sign-out and switch if needed. 
 3. Try the Oauth configuration again, the following window appears to authorize it.
 
-![Screenshot shows the 'logout successfully' window](media/servicenow-knowledge-connector/image2-issue6.png)
+![Screenshot shows the 'Oauth configuration' window](media/servicenow-knowledge-connector/image2-issue6.png)
 
 If you have issues or want to provide feedback, contact [Microsoft Graph | Support](https://developer.microsoft.com/en-us/graph/support).
