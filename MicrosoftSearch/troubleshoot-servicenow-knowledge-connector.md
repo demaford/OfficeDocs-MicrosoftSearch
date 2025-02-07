@@ -107,10 +107,10 @@ To change the destination URL, edit the `AccessUrl` part of the text property in
 
 If you see differences in the user criteria validation between ServiceNow and Microsoft Search or Microsoft 365 Copilot, set `glide.knowman.block_access_with_no_user_criteria` system property to `no`.
 
-### 6. Issues with Oauth for ServiceNow
+### 6. A logout successfully window appears when completing the OAuth process.
 
-During the OAUTH for ServiceNow connector configuration, the authorization window for ServiceNow shows 'logout successfully'without prompting for ServiceNow credentials.
-By default, the ServiceNow window is logged in with Microsoft 365 Admin credentials with SSO from browser login and fails which results in the 'logout successfully' message. To resolve this issue, follow these steps:
+While completing the OAuth process, a 'logout successfully' window appears without prompting ServiceNow credentials.
+By default, ServiceNow connects with Microsoft 365 Admin credentials with SSO from a browser login and fails.  As a result, the 'logout successfully' window appears. To resolve this issue, follow these steps:
 
 ![Screenshot shows the 'logout successfully' window](media/servicenow-knowledge-connector/image1-issue6.png)
 
