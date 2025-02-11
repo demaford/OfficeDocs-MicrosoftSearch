@@ -17,9 +17,9 @@ description: "Set up the Google Drive Microsoft Graph connector for Microsoft Se
 ms.date: 09/19/2024
 ---
 
-# Google Drive Microsoft Graph connector (Preview)
+# Google Drive Microsoft Graph connector (preview)
 
-With the Microsoft Graph connector, your organization in M365 can index files that are accessible to anyone in Google Drive, using Microsoft 365 Copilot and Microsoft Search. 
+With the Microsoft Graph connector, your organization in Microsoft 365 can index files that are accessible to anyone in Google Drive, using Microsoft 365 Copilot and Microsoft Search. 
 
 This article is for Microsoft 365 administrators or anyone who configures, runs, and monitors Microsoft Graph Google Drive connectors. 
 
@@ -61,10 +61,10 @@ Add (or ask a user with a super admin role to add) the following OAuth scopes to
 `https://www.googleapis.com/auth/drive.readonly`   
 
 
-## Set up
+## Setup
 
 ### 1. Display name   
-A display name is used to identify each reference in Copilot, helping users easily recognize the associated file or item.   Display name also signifies trusted content.
+A display name is used to identify each reference in Copilot, helping users easily recognize the associated file or item. The display name also represents trusted content.
 
 ### 2. Google Apps domain
 To sign up for Google Workspace, you need an internet domain name, like your-company.com. This domain can host a website (`www.your-company.com`) and email (`info@your-company.com`). For more information, see [What is a domain?](https://support.google.com/a/answer/177483?hl=en&ref_topic=3540977&sjid=7603839478714180429-AP).
@@ -75,7 +75,7 @@ Enter the email of a Google Apps administrator account in the `user@company.com`
 ### 4. Rollout to a limited audience
 Deploy this connection to a limited user base if you want to validate it in Copilot and other search surfaces before expanding the rollout to a broader audience.
 
-For other settings, like Access Permissions, Data inclusion rules, Schema, Crawl frequency, etc., we set defaults based on what works best with data in Google Drive. The default values settings are as follows.
+For other settings, like Access permissions, Data inclusion rules, Schema, Crawl frequency, etc., we set defaults based on what works best with data in Google Drive. The default values settings are as follows.
 
 **Page** | **Settings** | **Default values**
 --- | ---- | ---
@@ -103,21 +103,21 @@ Currently, only files that are accessible to anyone in Google Drive are indexed 
 
 Here, you can add or remove available properties from your Google Drive data source. Assign a schema to the property (define whether a property is **searchable, queryable, retrievable or refinable**), change the semantic label, and add an alias to the property. Properties that are selected by default are:
 
-**Source property** | **Label** |**Description**| **Schema**
---- | ---- | --- | ---
-CreatedTime | Created date time | The time at which the file was created.  | Search, Query, Retrieve
-Description |  | A short description of the file.  | 
-FileExtension | File extension | The final component of fullFileExtension. This parameter is only available for files with binary content in Google Drive.  | Query, Refine, Retrieve
-FileType |  | The type of the file.  | 
-IconLink | IconUrl | A static, unauthenticated link to the file's icon.  | Retrieve
-LastModifingUser | lastModifiedDateTime | The last user to modify the file. This field is only populated when the last modification was performed by a signed-in user.  | Query, Retrieve, Search
-modifiedTime	| Last modified by | The last time the file was modified by anyone (RFC 3339 date-time).  | Query, Retrieve, Search
-Link | url | A link for opening the file in a relevant Google editor or viewer in a browser.  | Retrieve
-Name | File Name | The name of the file.  | Query, Retrieve, Search
-Owner | Created by | The owner of this file. Only certain legacy files may have more than one owner. This field isn't populated for items in shared drives.  | Search, Query, Retrieve
-ParentFolderLink |  |  A link for the parent folder containing the file.  | Retrieve
-ParentFolderName |  | The name of the parent folder containing the file.  | Search, Query, Retrieve
-Size |  | Size in bytes of blobs and first-party editor files.  | Search, Query, Retrieve
+|Source property|Label|Description|Schema|
+|--- | ---- | --- | ---|
+|createdTime | Created date time | The time at which the file was created.  | Search, Query, Retrieve.|
+|description |  | A short description of the file.| 
+|fileExtension | File extension | The final component of fullFileExtension. This parameter is only available for files with binary content in Google Drive.  | Query, Refine, Retrieve.|
+|fileType |  | The type of the file.  | 
+|iconLink | IconUrl | A static, unauthenticated link to the file's icon.  | Retrieve.|
+|lastModifingUser | lastModifiedDateTime | The last user to modify the file. This field is only populated when the last modification was performed by a signed-in user.  | Query, Retrieve, Search.|
+|modifiedTime	| Last modified by | The last time the file was modified by anyone (RFC 3339 date-time).  | Query, Retrieve, Search.|
+|link | url | A link for opening the file in a relevant Google editor or viewer in a browser.  | Retrieve.|
+|name | File Name | The name of the file.  | Query, Retrieve, Search.|
+|owner | Created by | The owner of this file. Only certain legacy files may have more than one owner. This field isn't populated for items in shared drives.  | Search, Query, Retrieve.|
+|parentFolderLink |  |  A link for the parent folder containing the file.  | Retrieve.|
+|parentFolderName |  | The name of the parent folder containing the file.  | Search, Query, Retrieve.|
+|size |  | Size in bytes of blobs and first-party editor files.  | Search, Query, Retrieve.|
 
 
 ### Sync 
