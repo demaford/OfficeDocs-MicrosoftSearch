@@ -37,7 +37,7 @@ This article is for Microsoft 365 administrators or anyone who configures, runs,
 - Folder replies & comments aren't indexable 
 
 ## Prerequisites
-Before you create a Google Drive connector, you must:
+Before you create a Microsoft Graph Google Drive connector, you must:
 
 ### 1. Be a Google Workspace super admin role or be granted access
 Either be granted access by a super admin role or are a user with administrative privileges. You do not need a super admin role for yourself if you have been granted access by a super admin role.
