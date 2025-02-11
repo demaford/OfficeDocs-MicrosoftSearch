@@ -23,7 +23,7 @@ The Zendesk Help Center Graph connector allows your organization to index articl
 This article is for Microsoft 365 administrators or anyone who configures, runs, and monitors a Zendesk Help Center Graph connector.
 
 >[!NOTE]
->The Zendesk Help Center connector is in public preview. If you wish to get access to try it, you need to enable [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365?view=o365-worldwide#set-up-the-release-option-in-the-admin-center) ring for your Admin account.
+>The Zendesk Help Center connector is in public preview. If you wish to get access to try it, you need to enable [Targeted Release](/microsoft-365/admin/manage/release-options-in-office-365#set-up-the-release-option-in-the-admin-center) ring for your Admin account.
 
 ## Capabilities
 - Index Help Center articles
