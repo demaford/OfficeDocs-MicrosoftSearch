@@ -44,7 +44,7 @@ The Windows search box is removing the "Work" tab, but continues to support work
 ## What actions are required for customers? 
 
 - Prepare users for the removal of work search results on Bing.com by March 31, 2025.
-- Transition to the Edge for Business address bar, the Windows search box, M365.cloud.microsoft or SharePoint Online as entry points to Microsoft Search. Customers can add these entry points to favorites or the favorites bar in Edge for Business as a helpful alternative pathway. Admins can easily set favorites in Edge for Business for their organization—[see details here](/deployedge/edge-learnmore-provision-favorites).
+- Transition to the Edge for Business address bar, the Windows search box, M365.cloud.microsoft, or SharePoint Online as entry points to Microsoft Search. Customers can add these entry points to favorites or the favorites bar in Edge for Business as a helpful alternative pathway. Admins can easily set favorites in Edge for Business for their organization—[see details here](/deployedge/edge-learnmore-provision-favorites).
 - Inform your users as soon as possible about the upcoming changes and the alternatives available.
 - Inform your users how to use the Edge address bar to perform work searches. [Get details here](/MicrosoftSearch/retirement-microsoft-search-bing#edge-address-bar)
 - Consider retiring Microsoft Search in Bing before March 31, 2025 for your organization. If you choose to do so, you can turn off Microsoft Search in Bing by going to Settings in the Microsoft 365 admin center > Settings > Search & Intelligence.
@@ -67,11 +67,11 @@ No, customers can't opt out of the change, but customers may opt to set their ow
 
 ## What's happening to bookmarks? 
 
-Editorial bookmarks (bookmarks that an IT admin has curated) continue to work on the other Microsoft Search entry points. These include M365.cloud.microsoft, SharePoint Online, and the Edge for Business address bar.  
+Editorial bookmarks (bookmarks that an IT admin has curated) continue to work on the other Microsoft Search entry points. These entry points include M365.cloud.microsoft, SharePoint Online, and the Edge for Business address bar.
 
 Today, Microsoft Search also recommends bookmarks based on your organization's SharePoint links. After March 31, Microsoft Search will no longer recommend bookmarks.  
 
-Some organizations have set their recommended bookmarks to automatically publish. Automatically published bookmarks, which currently only appear in Microsoft Search in Bing, are no longer visible after March 31. If your organization automatically publishes recommended bookmarks, and you'd like those bookmarks to be visible on other Microsoft Search entry points, you must manually publish them before April 30, 2025. This is intended to give you a little extra time after the March 31 retirement of Microsoft Search in Bing. You can also export your recommended bookmarks by April 30 if you want to keep them, but don't want to publish them.
+Some organizations set their recommended bookmarks to automatically publish. Automatically published bookmarks, which currently only appear in Microsoft Search in Bing, are no longer visible after March 31. If your organization automatically publishes recommended bookmarks, and you'd like those bookmarks to be visible on other Microsoft Search entry points, you must manually publish them before April 30, 2025. This is intended to give you a little extra time after the March 31 retirement of Microsoft Search in Bing. You can also export your recommended bookmarks by April 30 if you want to keep them, but don't want to publish them.
 
 Learn more about [managing bookmarks](/microsoftsearch/manage-bookmarks). 
 
