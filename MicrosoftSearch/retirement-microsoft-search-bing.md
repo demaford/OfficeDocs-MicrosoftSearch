@@ -31,7 +31,7 @@ Microsoft Search in Bing is being retired in all regions worldwide on March 31, 
 
 ## Where can users search for work answers? 
 
-M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The Edge for Business address bar and Windows search box also continue to deliver work search results, with some adjustments detailed here: 
+M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The address bar in Edge for Business and the Windows search box also continue to deliver work search results, with some adjustments detailed here: 
 
 ## Edge address bar 
 
@@ -71,10 +71,10 @@ Editorial bookmarks (bookmarks that an IT admin has curated) continue to work on
 
 Today, Microsoft Search also recommends bookmarks based on your organization's SharePoint links. After March 31, Microsoft Search will no longer recommend bookmarks.  
 
-Some organizations set their recommended bookmarks to automatically publish. Automatically published bookmarks, which currently only appear in Microsoft Search in Bing, are no longer visible after March 31. If your organization automatically publishes recommended bookmarks, and you'd like those bookmarks to be visible on other Microsoft Search entry points, you must manually publish them before April 30, 2025. This is intended to give you a little extra time after the March 31 retirement of Microsoft Search in Bing. You can also export your recommended bookmarks by April 30 if you want to keep them, but don't want to publish them.
+Some organizations set their recommended bookmarks to automatically publish. Automatically published bookmarks, which currently only appear in Microsoft Search in Bing, are no longer visible after March 31. If your organization automatically publishes recommended bookmarks, and you'd like those bookmarks to be visible on other Microsoft Search entry points, you must manually publish them before April 30, 2025. This date is intended to give you a little extra time after the March 31 retirement of Microsoft Search in Bing. You can also export your recommended bookmarks by April 30 if you want to keep them, but don't want to publish them.
 
 Learn more about [managing bookmarks](/microsoftsearch/manage-bookmarks). 
 
 ## Does this impact all tenants? 
 
-Yes, all tenants who have had access to Microsoft Search in Bing are affected.
+Yes, all tenants who have access to Microsoft Search in Bing are affected.
