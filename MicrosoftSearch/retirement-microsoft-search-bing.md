@@ -17,9 +17,11 @@ ms.date: 01/17/2025
 
 # Guidance for retiring Microsoft Search in Bing for your organization
 
-After March 31, 2025, work search through Bing.com is being retired. This change is being made as Microsoft streamlines search experiences to focus on enhancing core productivity tools.
+After March 31, 2025, work and school search through Bing.com is being retired. This change is being made as Microsoft streamlines search experiences to focus on enhancing core productivity tools.
 
 While Microsoft Search is being removed from Bing, the core Microsoft Search experience remains accessible through M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online. Users can also still find people in their organization, files, and SharePoint sites using the Edge for Business address bar and Windows search box. Each of these entry points routes them to a Microsoft Search experience.
+
+These changes also apply to users in organizations with education service plans that use Bing's experience designed for searching school. Some school search features, including answers about classes and upcoming assignments, are being discontinued.
 
 ## What's changing? 
 
@@ -39,7 +41,7 @@ The Microsoft Edge for Business address bar will send users to work results on M
 
 ## Windows search box 
 
-The Windows search box is removing the "Work" tab, but continues to support work search. UX changes are also coming to the Windows search box.
+The "Work" scope is being retired in the Windows search box. The ability to discover company content such as suggested people through Search Home will also be unavailable, and there will no longer be company-specific branding (the "Commercial Gleam"). However, users will still be able to find work files from both the "All" scope and the "Documents" scope. Additionally, users can find people through the "All" and "People" scopes.
 
 ## What actions are required for customers? 
 
@@ -48,6 +50,14 @@ The Windows search box is removing the "Work" tab, but continues to support work
 - Inform your users as soon as possible about the upcoming changes and the alternatives available.
 - Inform your users how to use the Edge address bar to perform work searches. [Get details here](/MicrosoftSearch/retirement-microsoft-search-bing#edge-address-bar)
 - Consider retiring Microsoft Search in Bing before March 31, 2025 for your organization. If you choose to do so, you can turn off Microsoft Search in Bing by going to Settings in the Microsoft 365 admin center > Settings > Search & Intelligence.
+
+## What's happening to the "Work" tab?
+
+Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is cookie-based, meaning if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work will restore the "Work" or "School" tab.
+
+## How does this affect users in educational organizations?
+
+After March 31, users in organizations with education service plans can search for school resources through m365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online. They can also still find people in their educational institution, files, and SharePoint sites using the Edge for Business address bar and Windows search box, both of which route them to a Microsoft Search experience. Some education search features, including answers about classes and upcoming assignments, are being discontinued.
 
 ## Why is this announcement important?  
 
