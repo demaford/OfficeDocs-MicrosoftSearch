@@ -25,15 +25,15 @@ These changes also apply to users in organizations with education service plans 
 
 ## What's changing? 
 
-Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated page for work results (the "Work" tab) is being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work will be sent to M365.cloud.microsoft through June 30, 2025.
+Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated pages for work results (the "Work" tab) and school results (the "School" tab) are being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work will be sent to M365.cloud.microsoft through June 30, 2025.
 
 ## When and where are these changes taking place? 
 
 Microsoft Search in Bing is being retired in all regions worldwide on March 31, 2025. It's being retired on all devices, including mobile. 
 
-## Where can users search for work answers? 
+## Where can users search for work and school answers? 
 
-M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The address bar in Edge for Business and the Windows search box also continue to deliver work search results, with some adjustments detailed here: 
+M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The address bar in Edge for Business and the Windows search box also continue to deliver work and school search results, with some adjustments detailed here: 
 
 ## Edge address bar 
 
