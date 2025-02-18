@@ -19,7 +19,7 @@ description: "Troubleshooting the ServiceNow Knowledge Microsoft Graph connector
 
 The following common errors are observed while configuring the connector, or during crawling and their possible reasons.
 
-### 1. Not able to find ServiceNow Knowledge articles in Microsoft 365 Copilot or Microsoft Search.
+### 1. Not able to find ServiceNow Knowledge articles on Microsoft 365 Copilot or Microsoft Search.
    
 <details>
 <summary>(Click to expand) Follow the troubleshooting steps to identify the root cause.</summary><br>
@@ -76,7 +76,7 @@ If your organization uses single sign-on (SSO) to ServiceNow, you may have troub
 
 </details>
 
-### 4. To view URL of the knowledge article, change it in the support portal
+### 4. To view the URL of the knowledge article, change it in the support portal
 
 <details><summary>(Click to expand) Follow the steps to change the URL of the knowledge article.</summary><br>
 
@@ -106,5 +106,21 @@ To change the destination URL, edit the `AccessUrl` part of the text property in
 ### 5. Issues with '_Only people with access to this data source_' permission
 
 If you see differences in the user criteria validation between ServiceNow and Microsoft Search or Microsoft 365 Copilot, set `glide.knowman.block_access_with_no_user_criteria` system property to `no`.
+
+### 6. A 'Logout successfully' window appears when completing the OAuth process
+
+While completing the OAuth process, a "Logout successfully" window may appear without prompting for ServiceNow credentials.
+
+By default, ServiceNow attempts to connect using Microsoft 365 Admin credentials through Single Sign-On (SSO) from a browser login, which can cause the connection to fail. As a result, the "Logout successfully" window appears.
+
+![Screenshot shows the 'logout successfully' window](media/servicenow-knowledge-connector/image1-issue6.png)
+
+To resolve this issue, follow these steps:
+
+1. Open a private browser window and sign in with your ServiceNow credentials.
+2. In a new tab, sign in to the Microsoft 365 Admin Center. This allows ServiceNow SSO to sign out and switch credentials if needed.
+3. Try the OAuth configuration again. The following window should appear to authorize the connection:
+
+![Screenshot shows the 'Oauth configuration' window](media/servicenow-knowledge-connector/image2-issue6.png)
 
 If you have issues or want to provide feedback, contact [Microsoft Graph | Support](https://developer.microsoft.com/en-us/graph/support).
