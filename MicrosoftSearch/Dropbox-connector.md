@@ -17,7 +17,7 @@ description: "Set up the Dropbox Graph connector for Microsoft Search and Copilo
 ms.date: 11/26/2024
 ---
 
-# Dropbox Graph connector (Preview)hghjkh
+# Dropbox Graph connector (Preview)
 
 With the Microsoft Graph connector, your organization in M365 can index files that are accessible to anyone in Dropbox, using Microsoft Copilot and Search. 
 
