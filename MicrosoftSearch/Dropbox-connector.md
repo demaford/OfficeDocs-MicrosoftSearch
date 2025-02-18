@@ -103,7 +103,7 @@ For other settings, like Access Permissions, Data inclusion rules, Schema, Crawl
 --- | ---- | ---
 Users | Access Permissions | All files that are accessible to anyone in Dropbox are visible to all Microsoft 365 users in your tenant, from Microsoft Search or Copilot.
 Content | Index Content | All published posts and pages are selected by default.
-Content | Manage Properties | To check default properties and their schema, [click here](#Content).
+Content | Manage Properties | To check default properties and their schema.
 Sync | Incremental Crawl | Frequency: Every 4 hours
 Sync | Full crawl | Frequency: Every day
 
@@ -132,7 +132,7 @@ To identify which option is suitable for your organization:
 >- If you chose "non-AAD" for the identity type see Map your non-Azure AD Identities for instructions on mapping the identities. You can use this option to provide the mapping regular expression from email ID to UPN.
 >- Updates to users or groups governing access permissions are synced in full crawls only. Incremental crawls do not currently support the processing of updates to permissions. 
 
-### **Content** 
+### Content
 
 **Manage Properties**
 
