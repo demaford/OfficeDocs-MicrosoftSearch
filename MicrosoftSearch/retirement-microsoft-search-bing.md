@@ -25,11 +25,11 @@ These changes also apply to users in organizations with education service plans 
 
 ## What's changing? 
 
-Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated pages for work results (the "Work" tab) and school results (the "School" tab) are being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work will be sent to M365.cloud.microsoft through June 30, 2025.
+Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar and the Microsoft search box send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated pages for work results (the "Work" tab) and school results (the "School" tab) are being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work are sent to M365.cloud.microsoft through June 30, 2025.
 
 ## When and where are these changes taking place? 
 
-Microsoft Search in Bing is being retired in all regions worldwide on March 31, 2025. It's being retired on all devices, including mobile. 
+Microsoft Search in Bing is being retired in all regions worldwide on March 31, 2025. It's being retired on all devices, including mobile.
 
 ## Where can users search for work and school answers? 
 
@@ -53,7 +53,7 @@ The "Work" scope is being retired in the Windows search box. The ability to disc
 
 ## What's happening to the "Work" tab?
 
-Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work will restore the "Work" or "School" tab.
+Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
 
 ## How do these changes affect users in educational organizations?
 
@@ -69,7 +69,7 @@ Customer productivity is our mission and making work search a better experience 
 
 ## What happens if I linked my Entra ID and MSA accounts?
 
-If you linked your Entra ID account (work or school account) and your MSA account (personal account) in order to earn points when you search on Bing, Edge, and MSN, your accounts will remain linked. You continue to earn points on Bing, Edge, and MSN if your accounts are linked. When you're on Bing, you need to log in with your MSA account to continue to earn.
+If you linked your Entra ID account (work or school account) and your MSA account (personal account) to earn points when you search on Bing, Edge, and MSN, your accounts remain linked. You continue to earn points on Bing, Edge, and MSN if your accounts are linked. When you're on Bing, you need to log in with your MSA account to continue to earn.
 
 If you no longer wish to have your accounts linked, see these [instructions for unlinking your accounts](https://answers.microsoft.com/en-us/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
 
