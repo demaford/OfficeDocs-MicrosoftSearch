@@ -67,6 +67,16 @@ Searching for files, people, intranet sites, and more is an important part of da
 
 Customer productivity is our mission and making work search a better experience remains a priority for Microsoft. We hope to better serve you through Microsoft Search in the core productivity experiences of M365.cloud.microsoft and SharePoint Online. We’re also continuing to explore new ways to improve the experience and make work search more discoverable.
 
+## What happens if I linked my Entra ID and MSA accounts?
+
+If you linked your Entra ID account (work or school account) and your MSA account (personal account) in order to earn points when you search on Bing, Edge, and MSN, your accounts will remain linked. You continue to earn points on Bing, Edge, and MSN if your accounts are linked. When you're on Bing, you need to log in with your MSA account to continue to earn.
+
+If you no longer wish to have your accounts linked, see these [instructions for unlinking your accounts](https://answers.microsoft.com/en-us/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
+
+If you want to redeem your Rewards points, you can do that via the [Rewards dashboard](https://rewards.bing.com/).
+
+Find answers to other questions about [Microsoft Rewards](https://support.microsoft.com/en-us/account-billing/getting-personal-rewards-points-for-work-searches-c66effb9-02e6-49c0-89e1-ae4d8644e6f7). 
+
 ## Is there any impact on users before March 31, 2025? 
 
 Users who click on suggestions in the Edge for Business address bar may be sent to M365.cloud.microsoft before March 31, 2025. Also, as we begin testing the retirement experience, a small set of users may find before March 31 that Bing is intermittently unavailable as an endpoint for work search. We recommend that you inform your users of the change and direct them to M365.cloud.microsoft and SharePoint Online instead. Adding these entry points to their favorites or to the favorites bar in Edge for Business may be a helpful alternative pathway.
