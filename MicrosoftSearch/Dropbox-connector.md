@@ -17,7 +17,7 @@ description: "Set up the Dropbox Graph connector for Microsoft Search and Copilo
 ms.date: 11/26/2024
 ---
 
-# Dropbox Graph connector (Preview)
+# Dropbox Graph connector (Preview)hghjkh
 
 With the Microsoft Graph connector, your organization in M365 can index files that are accessible to anyone in Dropbox, using Microsoft Copilot and Search. 
 
@@ -28,7 +28,7 @@ This article is for Microsoft 365 administrators or anyone who configures, runs,
 
 ## Capabilities
 - Access Dropbox files using the power of Semantic search
-- Retain ACLs defined by your organization
+- Retain access control lists (ACLs) defined by your organization
 - Customize your crawl frequency
 - Create workflows using this connection and plugins from Microsoft Copilot Studio
 
@@ -42,10 +42,10 @@ Before you create a Dropbox connector, you must:
 Created a Dropbox account  for business and set up a team admin user.
 
 ### 2. Configure a Dropbox app
-Configured a Dropbox app with a unique App name, activated Scoped Access and Full Dropbox permissions. See [Dropbox documentation on creating an app](https://www.dropbox.com/developers/reference/getting-started#app%20console).
+Configured a Dropbox app with a unique App name, activated Scoped Access, and Full Dropbox permissions. See [Dropbox documentation on creating an app](https://www.dropbox.com/developers/reference/getting-started#app%20console).
 
 ### 3. Add direct URLs 
-Add the following links into the filed “Redirect URLs” in the section OAuth 2 of the setting tab in the Dropbox app console: 
+Add the following links into the filed "Redirect URLs" in the section OAuth 2 of the setting tab in the Dropbox app console: 
 
 For M365 Enterprise, copy and paste: `https://gcs.office.com/v1.0/admin/oauth/callback`
 
@@ -92,7 +92,7 @@ Navigate to the Settings  tab from the navigation pane on the left to get the Ap
 Choose a display name that helps users easily recognize associated files or items in a Copilot response.
 
 ### 2. Authentication type
-Enter the app key and app secret you obtained from your Dropbox app  console. 
+Enter the app key and app secret you obtained from your Dropbox app console. 
 
 ### 3. Rollout to limited audience
 Deploy this connection to a limited user base if you want to validate it in Copilot and other search surfaces before expanding the rollout to a broader audience.
@@ -111,7 +111,7 @@ If you want to edit any of these values, you need to choose the **Custom Setup**
 
 ## Custom Setup 
 
-Custom setup is for those admins who want to edit the default values for settings. Once you click on the ‘Custom Setup’ option, you should see three other tabs – Users, Content, and Sync. 
+Custom setup is for those admins who want to edit the default values for settings. Once you click on the "Custom Setup" option, you should see three other tabs – Users, Content, and Sync. 
 
 ### Users 
 
@@ -136,7 +136,7 @@ To identify which option is suitable for your organization:
 
 **Manage Properties**
 
-Here, you can add or remove available properties from your Dropbox data source. Assign a schema to the property (define whether a property is **searchable, queryable, retrievable or refinable**), change the semantic label and add an alias to the property. Properties that are selected by default are:
+Here, you can add or remove available properties from your Dropbox data source. Assign a schema to the property (define whether a property is **searchable, queryable, retrievable, or refinable**), change the semantic label and add an alias to the property. Properties that are selected by default are:
 
 **Source Property** | **Label** |**Description**| **Schema**
 --- | ---- | --- | ---
@@ -144,7 +144,7 @@ CreatedBy | Created by | The email address of the creator  | Query, Retrieve, Se
 FileExtension | File extension | The file name extension.  | Query, Refine, Retrieve
 IconUrl | IconUrl | The URL of the icon. | Retrieve
 LastModifiedBy | Last modified date time  | The email address of the user who last modified this file.  | Query, Retrieve, Search
-LastModifiedTime | lastModifiedDateTime | The last user to modify the file. This field is only populated when the last modification was performed by a signed-in user.  | Query, Refine, Retrieve
+LastModifiedTime | lastModifiedDateTime | The last user to modify the file. The user who performed the last modificationThis must be a sign-in user.  | Query, Refine, Retrieve
 Name	| File name | The file name  | Query, Retrieve, Search
 PreviewUrl | url | URL for displaying a web preview of the shared file.   | Retrieve
 Size |  |The file size in bytes. | 
@@ -155,8 +155,8 @@ Size |  |The file size in bytes. |
 You can configure full and incremental crawls based on the scheduling options present here. By default, incremental crawl is set for every 4 hours, and full crawl is set for every day. If needed, you can adjust these schedules to fit your data refresh needs.
 
 ## Troubleshooting
-### 1. Required permission scopes are missing. Please ensure the necessary scopes are selected in the Dropbox App.
-Lack of the required permission scopes, please make sure you have selected all the scopes in Dropbox app console:
+### 1. Required permission scopes are missing. Ensure the necessary scopes are selected in the Dropbox App.
+Lack of the required permission scopes, make sure you selected all the scopes in Dropbox app console:
 
 #### Individual Scopes: 
 `files.metadata.read`
@@ -186,17 +186,17 @@ Lack of the required permission scopes, please make sure you have selected all t
 
 `events.read`
 
-### 2. OAuth 2.0 flow failed. Please verify the credential information and ensure the Dropbox App is configured with the correct settings.
-Common authentication error. Please go back to the Dropbox app console and check if the OAuth2 in the setting tab is correctly configured.
+### 2. OAuth 2.0 flow failed. Verify the credential information and ensure the Dropbox App is configured with the correct settings.
+Common authentication error. Go back to the Dropbox app console and check if the OAuth2 in the setting tab is correctly configured.
 
-### 3. OAuth 2.0 flow failed. Please confirm that the Dropbox user associated with this team access token holds the team admin role and is an active user.
-Common authentication error.  Please go back to the Dropbox app console and check if the creator has an admin role and the account status is active.
+### 3. OAuth 2.0 flow failed. Confirm that the Dropbox user associated with this team access token holds the team admin role and is an active user.
+Common authentication error.  Go back to the Dropbox app console and check if the creator has an admin role and the account status is active.
 
-### 4. Your security credentials have expired for this session. Please go back and sign in again with your App key and App secret.
-Credential info has expired. Please refresh the Dropbox app console and copy the latest App key and App secret from the setting tab to authenticate.
+### 4. Your security credentials have expired for this session. Go back and sign in again with your App key and App secret.
+Credential info has expired. Refresh the Dropbox app console and copy the latest App key and App secret from the setting tab to authenticate.
 
-### 5. Invalid Credentials detected. Please check the credential info and check the permission scopes of the Dropbox App.
-Common credential error. Please go back to the Dropbox App console and check if the scopes in the permission tab are correctly configured.
+### 5. Invalid Credentials detected. Check the credential info and check the permission scopes of the Dropbox App.
+Common credential error. Go back to the Dropbox App console and check if the scopes in the permission tab are correctly configured.
 
 
 
