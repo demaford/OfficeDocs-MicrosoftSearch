@@ -75,7 +75,7 @@ Customer productivity is our mission and making work search a better experience 
 
 If you linked your Entra ID account (work or school account) and your MSA account (personal account) to earn points when you search on Bing, Edge, and MSN, your accounts remain linked. You continue to earn points on Bing, Edge, and MSN if your accounts are linked. When you're on Bing, you need to log in with your MSA account to continue to earn.
 
-If you no longer wish to have your accounts linked, see these [instructions for unlinking your accounts](https://answers.microsoft.com/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
+If you no longer wish to have your accounts linked, see these [instructions for unlinking your accounts](https://answers.microsoft.com/en-us/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
 
 If you want to redeem your Rewards points, you can do that via the [Rewards dashboard](https://rewards.bing.com/).
 
