@@ -35,9 +35,13 @@ Microsoft Search in Bing is being retired in all regions worldwide on March 31, 
 
 M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The address bar in Edge for Business and the Windows search box also continue to deliver work and school search results, with some adjustments detailed here: 
 
-## Edge address bar 
+## Edge address bar
 
 The Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Users of the address bar can continue to find work-related documents, bookmarks, and people in suggested results—clicking on these suggestions takes users to work results on M365.cloud.microsoft. Users can also type "work" in the address bar, hit the tab key, then type in their work-related query to get work results on a M365.cloud.microsoft page. Work search results continue to include documents, people, and bookmarks.
+
+## Changes to the Edge address bar policy
+
+The *AddressBarMicrosoftSearchInBingProviderEnabled* policy, used to configure Microsoft Search in Bing results in the Edge for Business address bar, is scheduled to be retired in May 2025. The new policy to replace it is *AddressBarWorkSearchResultsEnabled*. This policy becomes available starting on March 6, 2025, allowing admins to configure the display of work suggestions in the address bar. 
 
 ## Windows search box 
 
