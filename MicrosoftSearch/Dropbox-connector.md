@@ -87,7 +87,7 @@ Navigate to Permissions tab on the Dropbox app console and added the following p
 
 `events.read`
 
-![Screenshot of add direct URL.](media/Dropbox_api-scopes.png)
+![Screenshot of add permissions.](media/Dropbox_api-scopes.png)
 
 ### 5. Get App key and App secret
 Navigate to the Settings  tab from the navigation pane on the left to get the App key and App secret from this page.
