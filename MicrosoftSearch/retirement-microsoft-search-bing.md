@@ -25,19 +25,23 @@ These changes also apply to users in organizations with education service plans 
 
 ## What's changing? 
 
-Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated pages for work results (the "Work" tab) and school results (the "School" tab) are being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work will be sent to M365.cloud.microsoft through June 30, 2025.
+Users can find work search results on M365.cloud.microsoft rather than on Bing.com. Likewise, the Microsoft Edge for Business address bar and the Microsoft search box send users to work results on M365.cloud.microsoft rather than Bing.com. Bing's dedicated pages for work results (the "Work" tab) and school results (the "School" tab) are being retired, so M365.cloud.microsoft and SharePoint Online are the new homes for Microsoft Search. Search boxes that IT admins configured to point to Microsoft Search in Bing will no longer provide work results. People who go directly to or have bookmarks for www.bing.com/work are sent to M365.cloud.microsoft through June 30, 2025.
 
 ## When and where are these changes taking place? 
 
-Microsoft Search in Bing is being retired in all regions worldwide on March 31, 2025. It's being retired on all devices, including mobile. 
+Microsoft Search in Bing is being retired in all regions worldwide on March 31, 2025. It's being retired on all devices, including mobile.
 
 ## Where can users search for work and school answers? 
 
 M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online are the new homes for Microsoft Search. The address bar in Edge for Business and the Windows search box also continue to deliver work and school search results, with some adjustments detailed here: 
 
-## Edge address bar 
+## Edge address bar
 
 The Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Users of the address bar can continue to find work-related documents, bookmarks, and people in suggested results—clicking on these suggestions takes users to work results on M365.cloud.microsoft. Users can also type "work" in the address bar, hit the tab key, then type in their work-related query to get work results on a M365.cloud.microsoft page. Work search results continue to include documents, people, and bookmarks.
+
+## Changes to the Edge address bar policy
+
+The *AddressBarMicrosoftSearchInBingProviderEnabled* policy, used to configure Microsoft Search in Bing results in the Edge for Business address bar, is scheduled to be retired in May 2025. The new policy to replace it is *AddressBarWorkSearchResultsEnabled*. This policy becomes available starting on March 6, 2025, allowing admins to configure the display of work suggestions in the address bar. 
 
 ## Windows search box 
 
@@ -53,7 +57,7 @@ The "Work" scope is being retired in the Windows search box. The ability to disc
 
 ## What's happening to the "Work" tab?
 
-Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work will restore the "Work" or "School" tab.
+Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
 
 ## How do these changes affect users in educational organizations?
 
@@ -66,6 +70,16 @@ Searching for files, people, intranet sites, and more is an important part of da
 ## Why is this happening?
 
 Customer productivity is our mission and making work search a better experience remains a priority for Microsoft. We hope to better serve you through Microsoft Search in the core productivity experiences of M365.cloud.microsoft and SharePoint Online. We’re also continuing to explore new ways to improve the experience and make work search more discoverable.
+
+## What happens if I linked my Entra ID and MSA accounts?
+
+If you linked your Entra ID account (work or school account) and your MSA account (personal account) to earn points when you search on Bing, Edge, and MSN, your accounts remain linked. You continue to earn points on Bing, Edge, and MSN if your accounts are linked. When you're on Bing, you need to log in with your MSA account to continue to earn.
+
+If you no longer wish to have your accounts linked, see these [instructions for unlinking your accounts](https://answers.microsoft.com/en-us/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
+
+If you want to redeem your Rewards points, you can do that via the [Rewards dashboard](https://rewards.bing.com/).
+
+Find answers to other questions about [Microsoft Rewards](https://support.microsoft.com/account-billing/getting-personal-rewards-points-for-work-searches-c66effb9-02e6-49c0-89e1-ae4d8644e6f7). 
 
 ## Is there any impact on users before March 31, 2025? 
 
