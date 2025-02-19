@@ -32,7 +32,6 @@ This article is for Microsoft 365 administrators or anyone who configures, runs,
 - Customize your crawl frequency
 - Create workflows using this connection and plugins from Microsoft Copilot Studio
 
-
 ## Limitations
 - Folder, replies & comments aren't indexable 
 
@@ -43,6 +42,9 @@ Created a Dropbox account  for business and set up a team admin user.
 
 ### 2. Configure a Dropbox app
 Configured a Dropbox app with a unique App name, activated Scoped Access, and Full Dropbox permissions. See [Dropbox documentation on creating an app](https://www.dropbox.com/developers/reference/getting-started#app%20console).
+ ![Screenshot of creat button.](media/Dropbpx_create_app.png)
+
+ ![Screenshot of create Application.](media/Dropbox_prerequisites_2.png)
 
 ### 3. Add direct URLs 
 Add the following links into the filed "Redirect URLs" in the section OAuth 2 of the setting tab in the Dropbox app console: 
@@ -50,6 +52,9 @@ Add the following links into the filed "Redirect URLs" in the section OAuth 2 of
 For M365 Enterprise, copy and paste: `https://gcs.office.com/v1.0/admin/oauth/callback`
 
 For M365 Government, copy and paste: `https://gcsgcc.office.com/v1.0/admin/oauth/callback` 
+
+ ![Screenshot of add direct URL.](media/Dropbox_add_directurl.png)
+
 
 ### 4. Add API Scopes 
 Navigate to Permissions tab on the Dropbox app console and added the following permissions:
@@ -81,6 +86,8 @@ Navigate to Permissions tab on the Dropbox app console and added the following p
 `groups.read`
 
 `events.read`
+
+![Screenshot of add direct URL.](media/Dropbox_api-scopes.png)
 
 ### 5. Get App key and App secret
 Navigate to the Settings  tab from the navigation pane on the left to get the App key and App secret from this page.
