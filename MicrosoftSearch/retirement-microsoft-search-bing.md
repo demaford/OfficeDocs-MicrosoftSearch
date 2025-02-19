@@ -55,13 +55,17 @@ The "Work" scope is being retired in the Windows search box. The ability to disc
 - Inform your users how to use the Edge address bar to perform work searches. [Get details here](/MicrosoftSearch/retirement-microsoft-search-bing#edge-address-bar)
 - Consider retiring Microsoft Search in Bing before March 31, 2025 for your organization. If you choose to do so, you can turn off Microsoft Search in Bing by going to Settings in the Microsoft 365 admin center > Settings > Search & Intelligence.
 
-## What's happening to the "Work" tab?
+## What's happening to the "Work" or "School" tab? 
 
-Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
+Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" or "School" tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
 
 ## How do these changes affect users in educational organizations?
 
 After March 31, users in organizations with education service plans can search for school resources through m365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online. They can also still find people in their educational institution, files, and SharePoint sites using the Edge for Business address bar and Windows search box. Each of these entry points routes them to a Microsoft Search experience. Some education search features, including answers about classes and upcoming assignments, are being discontinued.
+
+## What's happening to SafeSearch? 
+
+If you set the search experience for your organization to "School search," SafeSearch was set to Strict by default. If you'd like to ensure that your users continue to have SafeSearch set to Strict after the Microsoft Search in Bing retirement, you can map www.bing.com to strict.bing.com at a network level. See [Blocking adult content with SafeSearch or blocking Chat](https://support.microsoft.com/en-us/topic/blocking-adult-content-with-safesearch-or-blocking-chat-946059ed-992b-46a0-944a-28e8fb8f1814) for more details.
 
 ## Why is this announcement important?  
 
