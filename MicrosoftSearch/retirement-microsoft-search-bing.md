@@ -79,7 +79,7 @@ If you no longer wish to have your accounts linked, see these [instructions for 
 
 If you want to redeem your Rewards points, you can do that via the [Rewards dashboard](https://rewards.bing.com/).
 
-Find answers to other questions about [Microsoft Rewards](/microsoftedge/forum/all/how-can-i-unlink-account-linked-to-microsoft-edge/664ab279-8c73-4f68-88ba-cc361d8274ee). 
+Find answers to other questions about [Microsoft Rewards](/account-billing/getting-personal-rewards-points-for-work-searches-c66effb9-02e6-49c0-89e1-ae4d8644e6f7). 
 
 ## Is there any impact on users before March 31, 2025? 
 
