@@ -56,7 +56,7 @@ Index and support user criteria permissions | sc_cat_item_user_criteria_mtom | W
 | | cmn_department | Read department information
 | | core_company | Read company attributes
 
-You can **create and assign a role** for the service account you use to connect with Microsoft Search. [Learn how to assign role for ServiceNow accounts](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Read access to the tables can be assigned on the created role. To learn about setting read access to table records, see [Granting Table Access to a User in ServiceNow](/MicrosoftSearch/granting-table-access-servicenow.md).
+You can **create and assign a role** for the service account you use to connect with Microsoft Search. [Learn how to assign role for ServiceNow accounts](https://www.servicenow.com/docs/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Read access to the tables can be assigned on the created role. To learn about setting read access to table records, see [Granting Table Access to a User in ServiceNow](/MicrosoftSearch/granting-table-access-servicenow).
 
 ## Get started
 

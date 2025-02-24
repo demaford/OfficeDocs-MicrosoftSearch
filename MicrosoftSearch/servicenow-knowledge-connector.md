@@ -317,7 +317,7 @@ Preview data to validate your Query filter and Manage Properties settings
 Configure Crawl frequency
 :::image-end:::
 
-The refresh interval determines how often your data is synced between the data source and the ServiceNow Knowledge Microsoft Graph connector index. There are two types of refresh intervals – full crawl and incremental crawl. For more details, click [here](/MicrosoftSearch/configure-connector.md#guidelines-for-sync-settings).
+The refresh interval determines how often your data is synced between the data source and the ServiceNow Knowledge Microsoft Graph connector index. There are two types of refresh intervals – full crawl and incremental crawl. For more details, click [here](/MicrosoftSearch/configure-connector#guidelines-for-sync-settings).
 
 You can change the default values of the refresh interval from here if you want to.
 
