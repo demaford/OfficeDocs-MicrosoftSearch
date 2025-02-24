@@ -275,7 +275,7 @@ Catalog || The specific catalog to which the item belongs. | Query |
 Category || The category within the catalog. | Query |
 Description | `Content` | The description of the catalog item. | Search, Retrieve |
 IconUrl   | `iconUrl` | Icon url that represents the article’s category or type. | Retrieve |
-Name   | `title` | The title of the item that you want shown in search and other experiences. | Searcb, Retrieve |
+Name   | `title` | The title of the item that you want shown in search and other experiences. | Search, Retrieve |
 Short Description || A brief summary of the item's purpose. | Search, Retrieve |
 SysCreatedBy   | `createdBy` | Name of the person who created the item in the data source. | Query, Retrieve |
 SysCreatedOn   | `createdDateTime` | Date and time that the item was created in the data source. | Query, Retrieve |
