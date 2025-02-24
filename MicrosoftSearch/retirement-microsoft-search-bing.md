@@ -37,13 +37,13 @@ M365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint O
 
 ## Edge address bar
 
-The Microsoft Edge for Business address bar will send users to work results on M365.cloud.microsoft rather than Bing.com. Users of the address bar can continue to find work-related documents, bookmarks, and people in suggested results—clicking on these suggestions takes users to work results on M365.cloud.microsoft. Users can also type "work" in the address bar, hit the tab key, then type in their work-related query to get work results on a M365.cloud.microsoft page. Work search results continue to include documents, people, and bookmarks.
+After March 31, 2025, the Microsoft Edge for Business address bar sends users to work results on M365.cloud.microsoft rather than Bing.com. Users of the address bar can continue to find work-related documents, bookmarks, and people in suggested results—clicking on these suggestions takes users to work results on M365.cloud.microsoft. Users can also type "work" in the address bar, hit the tab key, then type in their work-related query to get work results on a M365.cloud.microsoft page. Work search results continue to include documents, people, and bookmarks.
 
 ## Changes to the Edge address bar policy
 
-The *AddressBarMicrosoftSearchInBingProviderEnabled* policy, used to configure Microsoft Search in Bing results in the Edge for Business address bar, is scheduled to be retired in May 2025. The new policy to replace it is *AddressBarWorkSearchResultsEnabled*. This policy becomes available starting on March 6, 2025, allowing admins to configure the display of work suggestions in the address bar. 
+The *AddressBarMicrosoftSearchInBingProviderEnabled* policy, used to configure Microsoft Search in Bing results in the Edge for Business address bar, is being retired in May 2025. The new policy to replace it is *AddressBarWorkSearchResultsEnabled*. This policy becomes available starting on March 6, 2025, allowing admins to configure the display of work suggestions in the address bar. 
 
-## Windows search box 
+## Windows search box
 
 The "Work" scope is being retired in the Windows search box. The ability to discover company content such as suggested people through Search Home will also be unavailable, and there will no longer be company-specific branding (the "Commercial Gleam"). However, users can still find work files from both the "All" scope and the "Documents" scope. Additionally, users can find people through the "All" and "People" scopes.
 
@@ -55,13 +55,17 @@ The "Work" scope is being retired in the Windows search box. The ability to disc
 - Inform your users how to use the Edge address bar to perform work searches. [Get details here](/MicrosoftSearch/retirement-microsoft-search-bing#edge-address-bar)
 - Consider retiring Microsoft Search in Bing before March 31, 2025 for your organization. If you choose to do so, you can turn off Microsoft Search in Bing by going to Settings in the Microsoft 365 admin center > Settings > Search & Intelligence.
 
-## What's happening to the "Work" tab?
+## What's happening to the "Work" or "School" tab? 
 
-Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" (or "School") tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
+Users who go to Bing after March 31, and were previously logged in to Bing with their Entra ID account, will continue to see the "Work" or "School" tab for a period of time. If they click on either of these tabs, they're redirected to m365.cloud.microsoft to complete their search. This experience is based on the user's cookies. So, if a user clears their cookies or gets a new browser or machine, they may no longer see these tabs. Visiting bing.com/work restores the "Work" or "School" tab.
 
 ## How do these changes affect users in educational organizations?
 
 After March 31, users in organizations with education service plans can search for school resources through m365.cloud.microsoft (formerly Office.com and Microsoft365.com) and SharePoint Online. They can also still find people in their educational institution, files, and SharePoint sites using the Edge for Business address bar and Windows search box. Each of these entry points routes them to a Microsoft Search experience. Some education search features, including answers about classes and upcoming assignments, are being discontinued.
+
+## What's happening to SafeSearch? 
+
+If you set the search experience for your organization to "School search," SafeSearch was set to Strict by default. You can ensure that your users continue to have SafeSearch set to Strict after the Microsoft Search in Bing retirement—just map www.bing.com to strict.bing.com at a network level. See [Blocking adult content with SafeSearch or blocking Chat](https://support.microsoft.com/en-us/topic/blocking-adult-content-with-safesearch-or-blocking-chat-946059ed-992b-46a0-944a-28e8fb8f1814) for more details.
 
 ## Why is this announcement important?  
 
