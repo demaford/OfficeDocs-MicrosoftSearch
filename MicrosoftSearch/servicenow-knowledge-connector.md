@@ -59,9 +59,9 @@ This article is for Microsoft 365 administrators or anyone who configures, runs,
    Index extended table properties (optional) | sys_db_object | Read extended table details
    | | sys_dictionary | Read extended table properties
 
-   You can **create and assign a role** for the service account you use to connect with Microsoft Search. [Learn how to assign role for ServiceNow accounts](https://docs.servicenow.com/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Read access to the tables can be assigned on the created role. To learn about setting read access to table records, see [Securing Table Records](https://developer.servicenow.com/dev.do#!/learn/learning-plans/vancouver/new_to_servicenow/app_store_learnv2_securingapps_vancouver_creating_and_editing_access_controls). 
+   You can **create and assign a role** for the service account you use to connect with Microsoft Search. [Learn how to assign role for ServiceNow accounts](https://docs.servicenow.com/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Read access to the tables can be assigned on the created role. To learn about setting read access to table records, see [Securing Table Records](https://developer.servicenow.com/dev.do#!/learn/learning-plans/xanadu/new_to_servicenow/app_store_learnv2_securingapps_xanadu_creating_and_editing_access_controls). 
 
-   If you want to index properties from [extended tables](https://docs.servicenow.com/bundle/vancouver-platform-administration/page/administer/table-administration/concept/table-extension-and-classes.html) of *kb_knowledge*, provide read access to sys_dictionary and sys_db_object. Access to these tables is optional. You can index *kb_knowledge* table properties without access to the two additional tables.
+   If you want to index properties from [extended tables](https://docs.servicenow.com/bundle/xanadu-platform-administration/page/administer/table-administration/concept/table-extension-and-classes.html) of *kb_knowledge*, provide read access to sys_dictionary and sys_db_object. Access to these tables is optional. You can index *kb_knowledge* table properties without access to the two additional tables.
 
 ## Get started
 
@@ -91,7 +91,7 @@ To authenticate and sync content from ServiceNow, choose **one of three** suppor
    <details>
    <summary>[Click to expand] To use the ServiceNow OAuth for authentication, follow these steps.</summary>
     
-   A ServiceNow admin needs to provision an endpoint in your ServiceNow instance, so that the ServiceNow Knowledge Microsoft Graph connector can access it. To learn more, see [Create an endpoint for clients to access the instance](https://docs.servicenow.com/bundle/vancouver-platform-security/page/administer/security/task/t_CreateEndpointforExternalClients.html) in the ServiceNow documentation.
+   A ServiceNow admin needs to provision an endpoint in your ServiceNow instance, so that the ServiceNow Knowledge Microsoft Graph connector can access it. To learn more, see [Create an endpoint for clients to access the instance](https://docs.servicenow.com/bundle/xanadu-platform-security/page/administer/security/task/t_CreateEndpointforExternalClients.html) in the ServiceNow documentation.
 
    The following table provides guidance on how to fill out the endpoint creation form:
 
@@ -163,7 +163,7 @@ To authenticate and sync content from ServiceNow, choose **one of three** suppor
 
       The ServiceNow instance needs the following configuration:
 
-         1. Register a new OAuth OIDC entity. To learn, see [Create an OAuth OIDC provider](https://docs.servicenow.com/bundle/vancouver-platform-security/page/administer/security/task/add-OIDC-entity.html).
+         1. Register a new OAuth OIDC entity. To learn, see [Create an OAuth OIDC provider](https://docs.servicenow.com/bundle/xanadu-platform-security/page/administer/security/task/add-OIDC-entity.html).
 
          1. The following table provides guidance on how to fill out OIDC provider registration form:
 
@@ -193,7 +193,7 @@ To authenticate and sync content from ServiceNow, choose **one of three** suppor
 
    5. Create a ServiceNow account.
 
-      Refer to the instructions to create a ServiceNow account, [create a user in ServiceNow](https://docs.servicenow.com/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html).
+      Refer to the instructions to create a ServiceNow account, [create a user in ServiceNow](https://docs.servicenow.com/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_CreateAUser.html).
 
       The following table provides guidance on how to fill out the ServiceNow user account registration
 
@@ -206,7 +206,7 @@ To authenticate and sync content from ServiceNow, choose **one of three** suppor
 
    6. Enable Knowledge role for the ServiceNow account
 
-      Access the ServiceNow account you created with ServiceNow Principal ID as User ID and assign the knowledge role. Instructions to assigning a role to a ServiceNow account can be found here, [assign a role to a user](https://docs.servicenow.com/bundle/vancouver-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Refer to the table mentioned under Service account in the [Prerequisites](#prerequisites) section for providing read access to more ServiceNow table records and index user criteria permissions.
+      Access the ServiceNow account you created with ServiceNow Principal ID as User ID and assign the knowledge role. Instructions to assigning a role to a ServiceNow account can be found here, [assign a role to a user](https://docs.servicenow.com/bundle/xanadu-platform-administration/page/administer/users-and-groups/task/t_AssignARoleToAUser.html). Refer to the table mentioned under Service account in the [Prerequisites](#prerequisites) section for providing read access to more ServiceNow table records and index user criteria permissions.
 
       Use Application ID as Client ID (from step 3.1), and Client secret (from step 3.2) in admin center configuration wizard to authenticate to your ServiceNow instance using Microsoft Entra ID OpenID Connect.
 
@@ -276,7 +276,7 @@ Configure settings related to your content
 
 **Query string**
 
-With a ServiceNow query string, you can specify conditions for syncing articles. It's like a **Where** clause in a **SQL Select** statement. For example, you can choose to index only articles that are published and active. To learn about creating your own query string, see [Generate an encoded query string using a filter](https://docs.servicenow.com/bundle/vancouver-platform-user-interface/page/use/using-lists/task/t_GenEncodQueryStringFilter.html).
+With a ServiceNow query string, you can specify conditions for syncing articles. It's like a **Where** clause in a **SQL Select** statement. For example, you can choose to index only articles that are published and active. To learn about creating your own query string, see [Generate an encoded query string using a filter](https://docs.servicenow.com/bundle/xanadu-platform-user-interface/page/use/using-lists/task/t_GenEncodQueryStringFilter.html).
 
 **Manage properties**
 
@@ -317,7 +317,7 @@ Preview data to validate your Query filter and Manage Properties settings
 Configure Crawl frequency
 :::image-end:::
 
-The refresh interval determines how often your data is synced between the data source and the ServiceNow Knowledge Microsoft Graph connector index. There are two types of refresh intervals – full crawl and incremental crawl. For more details, click [here](/MicrosoftSearch/configure-connector#step-8-refresh-settings).
+The refresh interval determines how often your data is synced between the data source and the ServiceNow Knowledge Microsoft Graph connector index. There are two types of refresh intervals – full crawl and incremental crawl. For more details, click [here](/MicrosoftSearch/configure-connector#guidelines-for-sync-settings).
 
 You can change the default values of the refresh interval from here if you want to.
 
