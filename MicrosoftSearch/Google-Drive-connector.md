@@ -17,14 +17,12 @@ description: "Set up the Google Drive Microsoft Graph connector for Microsoft Se
 ms.date: 09/19/2024
 ---
 
-# Google Drive Microsoft Graph connector (preview)
+# Google Drive Microsoft Graph connector 
 
 With the Microsoft Graph connector, your organization in Microsoft 365 can index files that are accessible to anyone in Google Drive, using Microsoft 365 Copilot and Microsoft Search. 
 
 This article is for Microsoft 365 administrators or anyone who configures, runs, and monitors Microsoft Graph Google Drive connectors. 
 
->[!NOTE]
->The Microsoft Graph Google Drive connector is in preview. If you wish to get early access to try it, sign up using [this form](https://forms.office.com/r/JniPmK5bzm).
 
 ## Capabilities
 - Access Google Drive files using the power of semantic search
