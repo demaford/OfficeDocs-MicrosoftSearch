@@ -23,9 +23,6 @@ With the Microsoft Graph connector, your organization in M365 can index files th
 
 This article is for Microsoft 365 administrators or anyone who configures, runs, and monitors Dropbox connector. 
 
->[!NOTE]
->The Dropbox connector is in preview. If you wish to get early access to try it, sign up using [this form](https://forms.office.com/r/JniPmK5bzm).
-
 ## Capabilities
 - Access Dropbox files using the power of Semantic search
 - Retain access control lists (ACLs) defined by your organization

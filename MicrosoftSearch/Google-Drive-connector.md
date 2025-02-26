@@ -17,21 +17,18 @@ description: "Set up the Google Drive Microsoft Graph connector for Microsoft Se
 ms.date: 09/19/2024
 ---
 
-# Google Drive Microsoft Graph connector (preview)
+# Google Drive Microsoft Graph connector 
 
 With the Microsoft Graph connector, your organization in Microsoft 365 can index files that are accessible to anyone in Google Drive, using Microsoft 365 Copilot and Microsoft Search. 
 
 This article is for Microsoft 365 administrators or anyone who configures, runs, and monitors Microsoft Graph Google Drive connectors. 
 
->[!NOTE]
->The Microsoft Graph Google Drive connector is in preview. If you wish to get early access to try it, sign up using [this form](https://forms.office.com/r/JniPmK5bzm).
 
 ## Capabilities
 - Access Google Drive files using the power of semantic search
 - Retain ACLs defined by your organization
 - Customize your crawl frequency
 - Create workflows using this connection and plugins from Microsoft Copilot Studio
-
 
 ## Limitations
 - Folder replies & comments aren't indexable 
@@ -95,7 +92,20 @@ Custom setup is for those admins who want to edit the default values for setting
 
 **Access permissions**
 
-Currently, only files that are accessible to anyone in Google Drive are indexed and visible to all Microsoft 365 users in your tenant, from Microsoft Search or Microsoft 365 Copilot.
+The Google Drive Graph connector supports data visible to Only people with access to this data source (recommended) or Everyone. If you choose Everyone, indexed data appears in the search results for all users. 
+
+If you choose Only people with access to this data source, you need to further choose whether your  has Microsoft Entra ID provisioned users or non-AAD users. 
+
+To identify which option is suitable for your organization: 
+
+1. Choose the **Microsoft Entra ID** option if the email ID of Google Drive users is same as the UserPrincipalName (UPN) of users in Microsoft Entra ID. 
+
+2. Choose the **non-AAD** option if the email ID of Google Drive users is **different** from the UserPrincipalName (UPN) of users in Microsoft Entra ID.
+
+>[!Important]
+>- If you choose Microsoft Entra ID as the type of identity source, the connector maps the email IDs of users obtained from Google Drive directly to UPN property from Microsoft Entra ID.
+>- If you chose "non-AAD" for the identity type see Map your non-Azure AD Identities for instructions on mapping the identities. You can use this option to provide the mapping regular expression from email ID to UPN.
+>- Updates to users or groups governing access permissions are synced in full crawls only. Incremental crawls do not currently support the processing of updates to permissions. 
 
 ### Content 
 
