@@ -91,6 +91,7 @@ Custom setup is for those admins who want to edit the default values for setting
 ### Users 
 
 **Access permissions**
+
 The Google Drive Graph connector supports data visible to Only people with access to this data source (recommended) or Everyone. If you choose Everyone, indexed data appears in the search results for all users. 
 
 If you choose Only people with access to this data source, you need to further choose whether your  has Microsoft Entra ID provisioned users or non-AAD users. 
